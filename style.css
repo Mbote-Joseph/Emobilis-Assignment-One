@@ -1,0 +1,86 @@
+body {
+  /* min-height: 1000px; */
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  text-transform: uppercase;
+  background-color: #f7f7f7;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+nav li {
+  list-style-type: none;
+  margin-left: 20px;
+  text-decoration: none;
+}
+nav h1 {
+  font-size: 3em;
+}
+nav p,
+nav a {
+  color: #777;
+  font-weight: 300;
+  text-decoration: none;
+}
+.video {
+  align-self: center;
+  margin: auto;
+  justify-content: center;
+  margin-left: 30%;
+}
+
+footer {
+  text-align: center;
+  min-height: 50px;
+  background-color: black;
+  color: white;
+  margin-top: 50px;
+}
+img {
+  margin: 10px;
+}
+.image {
+  margin: 70px;
+}
+input {
+  border-radius: 20px;
+  min-height: 30px;
+  min-width: 300px;
+  /* transform: rotate(5deg); */
+}
+form {
+  margin-top: 50px;
+  margin-left: 30%;
+  min-width: 600px;
+}
+button {
+  min-width: 200px;
+  font-size: 25px;
+  min-height: 40px;
+  margin-left: 40%;
+  background-color: tomato;
+  border-radius: 20px;
+}
+.content {
+  margin: 0% 25% 0% 25%;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  max-height: 50%;
+}
+#date {
+  color: yellowgreen;
+}
+.map {
+  margin-left: 30%;
+}
+.title {
+  margin-left: 30% !important;
+}
